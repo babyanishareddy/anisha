@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [execution.TestExecution]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="execution.TestExecution"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="execution.TestExecution">
+        <methods>
+          <include name="verify_NewEmployee"/>
+          <include name="verify_branchsearch"/>
+          <include name="verify_login"/>
+          <include name="verify_Role"/>
+          <include name="verify_excel"/>
+          <include name="verify_NewRole"/>
+          <include name="verify_Employee"/>
+          <include name="verify_branchclick"/>
+          <include name="aftersuite"/>
+          <include name="extentreport"/>
+          <include name="beforemethod"/>
+          <include name="verify_launch"/>
+          <include name="verify_WebTable"/>
+        </methods>
+      </class> <!-- execution.TestExecution -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [execution.TestExecution] -->

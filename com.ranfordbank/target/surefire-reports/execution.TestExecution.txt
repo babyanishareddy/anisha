@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------
+Test set: execution.TestExecution
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 9, Errors: 0, Skipped: 1, Time elapsed: 2.498 sec <<< FAILURE!
+verify_login(execution.TestExecution)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at pagelibrary.LoginPage.Username_editbox(LoginPage.java:11)
+	at execution.Repository.login(Repository.java:62)
+	at execution.TestExecution.verify_login(TestExecution.java:14)
+
+verify_branchclick(execution.TestExecution)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at pagelibrary.Admin.Branches_button(Admin.java:11)
+	at execution.Repository.branches(Repository.java:125)
+	at execution.TestExecution.verify_branchclick(TestExecution.java:26)
+
+verify_excel(execution.TestExecution)  Time elapsed: 0.336 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at pagelibrary.Branches.New_Branch(Branches.java:11)
+	at execution.Repository.New_Branch(Repository.java:145)
+	at execution.TestExecution.verify_excel(TestExecution.java:78)
+
+verify_branchsearch(execution.TestExecution)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at pagelibrary.Branches.Country_Dropdown(Branches.java:15)
+	at execution.Repository.branch_search(Repository.java:175)
+	at execution.TestExecution.verify_branchsearch(TestExecution.java:42)
+
+verify_Role(execution.TestExecution)  Time elapsed: 0.016 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at pagelibrary.Admin.Roles_button(Admin.java:16)
+	at execution.Repository.Roles(Repository.java:201)
+	at execution.TestExecution.verify_Role(TestExecution.java:47)
+
+verify_NewRole(execution.TestExecution)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at pagelibrary.Roles.New_Role(Roles.java:12)
+	at execution.Repository.New_Role(Repository.java:220)
+	at execution.TestExecution.verify_NewRole(TestExecution.java:52)
+
+verify_Employee(execution.TestExecution)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at pagelibrary.Admin.Employee_button(Admin.java:26)
+	at execution.Repository.EmployeePage(Repository.java:244)
+	at execution.TestExecution.verify_Employee(TestExecution.java:57)
+
+verify_NewEmployee(execution.TestExecution)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at pagelibrary.EmployeePage.New_Employee(EmployeePage.java:17)
+	at execution.Repository.New_Employee(Repository.java:263)
+	at execution.TestExecution.verify_NewEmployee(TestExecution.java:62)
+
+verify_WebTable(execution.TestExecution)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at pagelibrary.Admin.Branches_button(Admin.java:11)
+	at execution.Repository.Web_Table(Repository.java:307)
+	at execution.TestExecution.verify_WebTable(TestExecution.java:67)
+

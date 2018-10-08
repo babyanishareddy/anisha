@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="execution.TestExecution">
+        <methods>
+          <include name="verify_launch()"/>
+          <include name="verify_login()"/>
+        </methods>
+      </class> <!-- execution.TestExecution -->
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test2">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="execution.TestExecution">
+        <methods>
+          <include name="verify_launch()"/>
+          <include name="verify_login()"/>
+        </methods>
+      </class> <!-- execution.TestExecution -->
+    </classes>
+  </test> <!-- Test2 -->
+</suite> <!-- Failed suite [Suite] -->

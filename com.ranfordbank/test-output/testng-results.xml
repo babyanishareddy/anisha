@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Launch Test is passed]]>
+    </line>
+    <line>
+      <![CDATA[Login Test passed]]>
+    </line>
+    <line>
+      <![CDATA[Launch Test is passed]]>
+    </line>
+    <line>
+      <![CDATA[Login Test passed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38668" started-at="2018-10-05T10:10:59Z" finished-at="2018-10-05T10:11:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="25616" started-at="2018-10-05T10:10:59Z" finished-at="2018-10-05T10:11:25Z">
+      <class name="execution.TestExecution">
+        <test-method status="PASS" signature="verify_launch(java.lang.String)[pri:0, instance:execution.TestExecution@7d9d1a19]" name="verify_launch" duration-ms="16868" started-at="2018-10-05T15:40:59Z" finished-at="2018-10-05T15:41:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launch Test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_launch -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:execution.TestExecution@7d9d1a19]" name="beforemethod" is-config="true" duration-ms="0" started-at="2018-10-05T15:40:59Z" finished-at="2018-10-05T15:40:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void execution.TestExecution.verify_launch(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="verify_login()[pri:1, instance:execution.TestExecution@7d9d1a19]" name="verify_login" duration-ms="8710" started-at="2018-10-05T15:41:16Z" finished-at="2018-10-05T15:41:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:execution.TestExecution@7d9d1a19]" name="beforemethod" is-config="true" duration-ms="0" started-at="2018-10-05T15:41:16Z" finished-at="2018-10-05T15:41:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void execution.TestExecution.verify_login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+      </class> <!-- execution.TestExecution -->
+    </test> <!-- Test -->
+    <test name="Test2" duration-ms="13005" started-at="2018-10-05T10:11:25Z" finished-at="2018-10-05T10:11:38Z">
+      <class name="execution.TestExecution">
+        <test-method status="PASS" signature="extentreport()[pri:0, instance:execution.TestExecution@271053e1]" name="extentreport" is-config="true" duration-ms="520" started-at="2018-10-05T15:40:58Z" finished-at="2018-10-05T15:40:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentreport -->
+        <test-method status="PASS" signature="verify_launch(java.lang.String)[pri:0, instance:execution.TestExecution@271053e1]" name="verify_launch" duration-ms="9367" started-at="2018-10-05T15:41:25Z" finished-at="2018-10-05T15:41:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launch Test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_launch -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:execution.TestExecution@271053e1]" name="beforemethod" is-config="true" duration-ms="0" started-at="2018-10-05T15:41:25Z" finished-at="2018-10-05T15:41:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void execution.TestExecution.verify_launch(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:execution.TestExecution@271053e1]" name="beforemethod" is-config="true" duration-ms="4" started-at="2018-10-05T15:41:34Z" finished-at="2018-10-05T15:41:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void execution.TestExecution.verify_login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="verify_login()[pri:1, instance:execution.TestExecution@271053e1]" name="verify_login" duration-ms="3622" started-at="2018-10-05T15:41:34Z" finished-at="2018-10-05T15:41:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:execution.TestExecution@271053e1]" name="aftersuite" is-config="true" duration-ms="858" started-at="2018-10-05T15:41:38Z" finished-at="2018-10-05T15:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- execution.TestExecution -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
